@@ -1,0 +1,75 @@
+.opacity_change{
+   opacity: 0.5;
+}
+.height-30{
+    height: 30em;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.item{
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.rel{
+    position: relative;
+}
+.abs-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.abs-centerend{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.abs-right{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.abs-rightend{
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+.font-exbg{
+    font-size: 80px;
+    color: #330000;
+}
+.font-bg{
+    font-size: 40px;
+    color: #424242;
+}
+.slick-slide img {
+    width: 100%;
+}
+.body-content{
+    flex: 1;
+}
+.button-plus{
+    position: absolute;
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+}
+.button-minus{
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.opacity_change img {
+　opacity: 0.5;
+}
